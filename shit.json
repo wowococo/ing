@@ -1,0 +1,33 @@
+{
+    "fields": [
+        {
+            "name": "b",
+            "type": "long",
+            "comment": "",
+            "parsers": {
+                "method": "rename",
+                "sourceField": "aaa"
+            }
+        },
+        {
+            "name": "xxx",
+            "type": "text",
+            "comment": "",
+            "parsers": {
+                "method": "regex",
+                "pattern": "",
+                "sourceField": "aaa"
+            }
+        },
+        {
+            "name": "yyy",
+            "type": "text",
+            "comment": "",
+            "parsers": {
+                "method": "regex",
+                "pattern": "",
+                "sourceField": "aaa"
+            }
+        } 
+    ]
+}

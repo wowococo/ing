@@ -1,0 +1,53 @@
+{
+    "sourceFields": [
+        {
+            "name": "a",
+            "type": "long",
+            "comment": ""
+        },
+        {
+            "name": "d",
+            "type": "date",
+            "comment": ""
+        }
+    ],
+
+    "processors": [
+        {
+            "method": "rename",
+            "sourceField": "a",
+            "targetField": "a1"
+        },
+        {
+            "method": "regex",
+            "pattern": "",
+            "sourceField": "a1"
+        }
+    ],
+    "targetFields": [
+        {
+            "name": "a1",
+            "type": "long",
+            "comment": "",
+            "runtime": true
+        },
+        {
+            "name": "b1",
+            "type": "text",
+            "comment": "",
+            "runtime": true
+        },
+        {
+            "name": "c1",
+            "type": "float",
+            "comment": "",
+            "runtime": true
+        },
+        {
+            "name": "d",
+            "type": "date",
+            "comment": "",
+            "runtime": false
+        }
+    ]
+}
