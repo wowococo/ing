@@ -1,0 +1,79 @@
+{
+    "original_fields": [
+        {
+            "name": "a",
+            "type": "long",
+            "comment": ""
+        },
+        {
+            "name": "b",
+            "type": "text",
+            "comment": ""
+        },
+        {
+            "name": "c",
+            "type": "float",
+            "comment": ""
+        },
+        {
+            "name": "d",
+            "type": "date",
+            "comment": ""
+        }
+    ],
+    "processors": [
+        {
+            "output_fields": [
+                {
+                    "name": "bbb1",
+                    "type": "text",
+                    "comment": ""
+                },
+                {
+                    "name": "bbb2",
+                    "type": "keyword",
+                    "comment": ""
+                }
+            ],
+            "input_fields": [
+                "b"
+            ],
+            "processor_type": "grok",
+            "processor_config": {
+                "pattern": "(?<bbb1>.*) To: (?<bbb2>.*)"
+            },
+            "pre_condition": [
+                {
+                    "name": "xx",
+                    "value": "xx",
+                    "operation": "eq",
+                    "logical": "and"
+                },
+                {
+                    "name": "yy",
+                    "value": 123,
+                    "operation": "gte",
+                    "logical": "or"
+                }
+            ]
+        },
+        {
+            "output_fields": [
+                {
+                    "name": "ddd1",
+                    "type": "date",
+                    "comment": ""
+                }
+            ],
+            "input_fields": [
+                "d"
+            ],
+            "processor_type": "time_parse",
+            "processor_config": {
+                "format": "YYYYMMDD",
+                "location": "Asia/Shanghai"
+            },
+            "pre_condition": []
+        }
+    ]
+}
