@@ -120,7 +120,11 @@ func deleteNestedField(origin map[string]any, field string) {
 	delete(parent, lastKey)
 }
 
-func main() {
+func main1() {
+	a := "sdf"
+	a+= ","
+	fmt.Println(a)
+
 	// 初始的JSON字符串
 	var origin map[string]any
 	jsonData := `{
