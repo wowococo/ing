@@ -1,3 +1,7 @@
+/*
+保留数组重复项的最后一个
+*/
+
 package main
 
 import (
@@ -30,11 +34,11 @@ func removeDuplicatesKeepLastEasy(slice []Element) []Element {
 }
 
 func removeDuplicatesKeepLast(slice []Element) []Element {
-	// 创建一个映射来记录元素的最后出现位置
+	// 记录result数组的每个元素key的索引
 	lastIndex := make(map[string]int)
 
 	// 创建一个结果切片，按照最后出现的顺序添加元素
-	result := make([]Element, 0)
+	result := []Element{}
 	for i := range slice {
 		if index, exists := lastIndex[slice[i].key]; exists {
 			result = append(result[:index], result[index+1:]...)
@@ -54,7 +58,7 @@ func removeDuplicatesKeepLast(slice []Element) []Element {
 	return result
 }
 
-func main() {
+func main1() {
 	s := []Element{
 		{"banana", 20},
 		{"apple", 1},
