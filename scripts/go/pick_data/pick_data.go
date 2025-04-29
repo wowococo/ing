@@ -120,7 +120,7 @@ func deleteNestedField(origin map[string]any, field string) {
 	delete(parent, lastKey)
 }
 
-func main0() {
+func main() {
 	a := "sdf"
 	a += ","
 	fmt.Println(a)

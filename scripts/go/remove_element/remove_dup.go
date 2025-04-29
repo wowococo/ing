@@ -58,7 +58,7 @@ func removeDuplicatesKeepLast(slice []Element) []Element {
 	return result
 }
 
-func main1() {
+func main() {
 	s := []Element{
 		{"banana", 20},
 		{"apple", 1},

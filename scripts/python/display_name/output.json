@@ -1,0 +1,472 @@
+{
+    "fields": [
+        {
+            "comment": "", 
+            "display_name": "@timestamp", 
+            "type": "date", 
+            "name": "@timestamp"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "__data_type", 
+            "type": "keyword", 
+            "name": "__data_type"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "__index_base", 
+            "type": "keyword", 
+            "name": "__index_base"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "__labels_str", 
+            "type": "keyword", 
+            "name": "__labels_str"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "__write_time", 
+            "type": "date", 
+            "name": "__write_time"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "category", 
+            "type": "keyword", 
+            "name": "category"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "tags", 
+            "type": "keyword", 
+            "name": "tags"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "type", 
+            "type": "keyword", 
+            "name": "type"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "__writeTime", 
+            "type": "date", 
+            "name": "__writeTime"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "__routing", 
+            "type": "text", 
+            "name": "__routing"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "@version", 
+            "type": "text", 
+            "name": "@version"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.host_ip", 
+            "type": "text", 
+            "name": "labels.host_ip"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.job_id", 
+            "type": "text", 
+            "name": "labels.job_id"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.domainname", 
+            "type": "text", 
+            "name": "labels.domainname"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.release", 
+            "type": "text", 
+            "name": "labels.release"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.sysname", 
+            "type": "text", 
+            "name": "labels.sysname"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.machine", 
+            "type": "text", 
+            "name": "labels.machine"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.nodename", 
+            "type": "text", 
+            "name": "labels.nodename"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.state", 
+            "type": "text", 
+            "name": "labels.state"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.host_name", 
+            "type": "text", 
+            "name": "labels.host_name"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.process_id", 
+            "type": "text", 
+            "name": "labels.process_id"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.cpu", 
+            "type": "text", 
+            "name": "labels.cpu"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.device", 
+            "type": "text", 
+            "name": "labels.device"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.version", 
+            "type": "text", 
+            "name": "labels.version"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.cpu_mode", 
+            "type": "text", 
+            "name": "labels.cpu_mode"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.process_name", 
+            "type": "text", 
+            "name": "labels.process_name"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.mountpoint", 
+            "type": "text", 
+            "name": "labels.mountpoint"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.mode", 
+            "type": "text", 
+            "name": "labels.mode"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.cmdline", 
+            "type": "text", 
+            "name": "labels.cmdline"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.memory_stat", 
+            "type": "text", 
+            "name": "labels.memory_stat"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "labels.fstype", 
+            "type": "text", 
+            "name": "labels.fstype"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "type", 
+            "type": "text", 
+            "name": "type"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "__write_time", 
+            "type": "date", 
+            "name": "__write_time"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_load1", 
+            "type": "float", 
+            "name": "metrics.node_load1"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_sockstat_TCP_inuse", 
+            "type": "float", 
+            "name": "metrics.node_sockstat_TCP_inuse"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_disk_read_bytes_total", 
+            "type": "float", 
+            "name": "metrics.node_disk_read_bytes_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_processes_cpu_seconds_total", 
+            "type": "float", 
+            "name": "metrics.node_processes_cpu_seconds_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_processes_io_write_bytes", 
+            "type": "float", 
+            "name": "metrics.node_processes_io_write_bytes"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_time_zone_offset_seconds", 
+            "type": "float", 
+            "name": "metrics.node_time_zone_offset_seconds"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_memory_Buffers_bytes", 
+            "type": "float", 
+            "name": "metrics.node_memory_Buffers_bytes"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_filesystem_free_bytes", 
+            "type": "float", 
+            "name": "metrics.node_filesystem_free_bytes"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_disk_io_now", 
+            "type": "float", 
+            "name": "metrics.node_disk_io_now"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_cpu_seconds_total", 
+            "type": "float", 
+            "name": "metrics.node_cpu_seconds_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_memory_MemAvailable_bytes", 
+            "type": "float", 
+            "name": "metrics.node_memory_MemAvailable_bytes"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_load5", 
+            "type": "float", 
+            "name": "metrics.node_load5"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_netstat_Tcp_ActiveOpens", 
+            "type": "float", 
+            "name": "metrics.node_netstat_Tcp_ActiveOpens"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_network_transmit_errors_total", 
+            "type": "float", 
+            "name": "metrics.node_network_transmit_errors_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_processes_io_read_bytes", 
+            "type": "float", 
+            "name": "metrics.node_processes_io_read_bytes"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_filesystem_avail_bytes", 
+            "type": "float", 
+            "name": "metrics.node_filesystem_avail_bytes"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_netstat_Tcp_PassiveOpens", 
+            "type": "float", 
+            "name": "metrics.node_netstat_Tcp_PassiveOpens"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_disk_read_time_seconds_total", 
+            "type": "float", 
+            "name": "metrics.node_disk_read_time_seconds_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_host_boot_time_seconds", 
+            "type": "float", 
+            "name": "metrics.node_host_boot_time_seconds"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_filesystem_files", 
+            "type": "float", 
+            "name": "metrics.node_filesystem_files"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_time_seconds", 
+            "type": "float", 
+            "name": "metrics.node_time_seconds"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_network_receive_errors_total", 
+            "type": "float", 
+            "name": "metrics.node_network_receive_errors_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_sockstat_TCP_tw", 
+            "type": "float", 
+            "name": "metrics.node_sockstat_TCP_tw"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_network_receive_dropped_total", 
+            "type": "float", 
+            "name": "metrics.node_network_receive_dropped_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_filefd_allocated", 
+            "type": "float", 
+            "name": "metrics.node_filefd_allocated"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_disk_written_bytes_total", 
+            "type": "float", 
+            "name": "metrics.node_disk_written_bytes_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_netstat_Tcp_CurrEstab", 
+            "type": "float", 
+            "name": "metrics.node_netstat_Tcp_CurrEstab"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_memory_Cached_bytes", 
+            "type": "float", 
+            "name": "metrics.node_memory_Cached_bytes"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_memory_MemTotal_bytes", 
+            "type": "float", 
+            "name": "metrics.node_memory_MemTotal_bytes"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_host_uname", 
+            "type": "float", 
+            "name": "metrics.node_host_uname"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_network_transmit_dropped_total", 
+            "type": "float", 
+            "name": "metrics.node_network_transmit_dropped_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_disk_write_time_seconds_total", 
+            "type": "float", 
+            "name": "metrics.node_disk_write_time_seconds_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_processes_total", 
+            "type": "float", 
+            "name": "metrics.node_processes_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_network_receive_bytes_total", 
+            "type": "float", 
+            "name": "metrics.node_network_receive_bytes_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_filesystem_size_bytes", 
+            "type": "float", 
+            "name": "metrics.node_filesystem_size_bytes"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_disk_io_time_seconds_total", 
+            "type": "float", 
+            "name": "metrics.node_disk_io_time_seconds_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_filesystem_files_free", 
+            "type": "float", 
+            "name": "metrics.node_filesystem_files_free"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_load15", 
+            "type": "float", 
+            "name": "metrics.node_load15"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_disk_reads_completed_total", 
+            "type": "float", 
+            "name": "metrics.node_disk_reads_completed_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_disk_writes_completed_total", 
+            "type": "float", 
+            "name": "metrics.node_disk_writes_completed_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_memory_MemFree_bytes", 
+            "type": "float", 
+            "name": "metrics.node_memory_MemFree_bytes"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_processes_memory_bytes_total", 
+            "type": "float", 
+            "name": "metrics.node_processes_memory_bytes_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_network_transmit_bytes_total", 
+            "type": "float", 
+            "name": "metrics.node_network_transmit_bytes_total"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_sockstat_TCP_alloc", 
+            "type": "float", 
+            "name": "metrics.node_sockstat_TCP_alloc"
+        }, 
+        {
+            "comment": "", 
+            "display_name": "metrics.node_filefd_maxmium", 
+            "type": "float", 
+            "name": "metrics.node_filefd_maxmium"
+        }
+    ]
+}
