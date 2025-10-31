@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>贪吃蛇游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="controls">
+            <div id="score">得分: 0</div>
+            <button id="startBtn">开始游戏</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
+
+
+# 方案1：允许运行本地脚本和签名的网络脚本（推荐）
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# 方案2：仅临时允许当前会话运行脚本（关闭后失效）
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
+# 方案3：允许所有脚本（危险，不推荐）
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
